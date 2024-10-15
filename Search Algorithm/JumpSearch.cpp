@@ -31,3 +31,7 @@ int main(){
 	}
 	return 0;
 }
+// The algorithm jumps ahead by vn steps, which takes O(vn) time.
+// Then it performs a linear search within a block of vn elements, also O(vn).
+// Overall time complexity is O(vn) because both phases take vn time.
+
